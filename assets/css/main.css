@@ -834,6 +834,20 @@ section,
   color: var(--accent-color);
 }
 
+.social-icons a {
+  color: black; /* Warna default hitam */
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #E4405F; /* Instagram (pink-merah) */
+}
+
+.social-icons a:nth-child(2):hover {
+  color: #42B549; /* Tokopedia (hijau) */
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
